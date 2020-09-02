@@ -1,6 +1,5 @@
 import os
 from flask import Flask
-from .db import db
 
 def create_app(test_config=None):
     '''
